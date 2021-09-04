@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><th colspan="8">Suite B</th></tr>
+<tr><td><a href="#t0">SearchPhone Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Annotations Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10</td><td></td><td></td></tr>
+<tr><td><a href="#t2">DataProvider Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite A</th></tr>
+<tr class="stripe"><td><a href="#t3">Soft Assertions Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">42</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Hard Assertions Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">9</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">85</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody><tr><th colspan="4">Suite B</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SearchPhone Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.suiteb.SearchAndBuyPhone</td><td><a href="#m0">checkout</a></td><td rowspan="1">1630533852879</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m1">search</a></td><td rowspan="1">1630533852868</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m2">selectPhone</a></td><td rowspan="1">1630533852877</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Annotations Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.suiteb.Annotations</td><td><a href="#m3">test1</a></td><td rowspan="1">1630533852887</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m4">test2</a></td><td rowspan="1">1630533852890</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m5">test3</a></td><td rowspan="1">1630533852892</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">DataProvider Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.suiteb.LoginTest_DataProvider</td><td><a href="#m6">doLogin</a></td><td rowspan="3">1630533852912</td><td rowspan="3">0</td></tr><tr class="passedeven"><td><a href="#m7">doLogin</a></td></tr><tr class="passedeven"><td><a href="#m8">doLogin</a></td></tr></tbody>
+<tbody><tr><th colspan="4">Suite A</th></tr></tbody><tbody id="t3"><tr><th colspan="4">Soft Assertions Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.suitea.SoftAssertTest</td><td><a href="#m9">validate</a></td><td rowspan="1">1630533852776</td><td rowspan="1">10</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Hard Assertions Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.suitea.HardAssertTest</td><td><a href="#m10">doLogin</a></td><td rowspan="1">1630533852850</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>SearchPhone Test</h2><h3 id="m0">testcases.suiteb.SearchAndBuyPhone#checkout</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@66d18979</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.suiteb.SearchAndBuyPhone#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@66d18979</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.suiteb.SearchAndBuyPhone#selectPhone</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@66d18979</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Annotations Test</h2><h3 id="m3">testcases.suiteb.Annotations#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.suiteb.Annotations#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.suiteb.Annotations#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>DataProvider Test</h2><h3 id="m6">testcases.suiteb.LoginTest_DataProvider#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>U3</td><td>P3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.suiteb.LoginTest_DataProvider#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>U2</td><td>P2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.suiteb.LoginTest_DataProvider#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>U1</td><td>P1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Soft Assertions Test</h2><h3 id="m9">testcases.suitea.SoftAssertTest#validate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [xyz] but found [abc],
+	Not Mathematically possible expected [true] but found [false],
+	404-Error
+	at testcases.suitea.SoftAssertTest.validate(SoftAssertTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Hard Assertions Test</h2><h3 id="m10">testcases.suitea.HardAssertTest#doLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Custom Err Message - 404 error
+	at testcases.suitea.HardAssertTest.doLogin(HardAssertTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
